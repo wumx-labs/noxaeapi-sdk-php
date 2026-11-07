@@ -1,0 +1,38 @@
+{
+    "name": "wumx-labs/noxaeapi-sdk-php",
+    "description": "Official PHP SDK for the NoxAeApi Minecraft REST API suite and Velocity Network Hub",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "minecraft",
+        "noxaeapi",
+        "spigot",
+        "paper",
+        "velocity",
+        "fabric",
+        "sdk",
+        "rest-api"
+    ],
+    "authors": [
+        {
+            "name": "Wumx Labs",
+            "homepage": "https://github.com/wumx-labs"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WumxLabs\\NoxAeApi\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "version": "0.7.0"
+}
